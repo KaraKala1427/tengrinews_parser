@@ -2,7 +2,7 @@
 
 //$htmlFile = 'tengri_news.html';
 //if (!file_exists($htmlFile)) {
-//    die("Файл с новостями не найден.");
+//    die("Файл с новостями не найден. sdfgfhgjkhgfds");
 //}
 //
 //$htmlContent = file_get_contents($htmlFile);
@@ -39,11 +39,11 @@ $botToken = "7842755494:AAHlOq8mCReuZfcqlLu26jI3N8klxFshDmE";
 $chatId = "-1002244979107"; // ID чата или пользователя, которому нужно отправить сообщение
 $filePath = __DIR__ . "/news_tengri.txt";
 
-$url = "https://api.telegram.org/bot$botToken/sendDocument";
+$url = "https://api.telegram.org/bot" . $botToken . "/sendDocument";
 
 $postFields = [
     'chat_id' => $chatId,
-    'document' => new CURLFile(realpath($filePath)), // Получаем полный путь к файлу
+    'document' => new CURLFile(realpath($filePath)), // Получаем полный путь к файлу 456
 ];
 
 $ch = curl_init();
