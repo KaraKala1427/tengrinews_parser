@@ -43,7 +43,7 @@ $url = "https://api.telegram.org/bot$botToken/sendDocument";
 
 $postFields = [
     'chat_id' => $chatId,
-    'document' => new CURLFile(realpath($filePath)), // Получаем полный путь к файлу
+    'document' => new CURLFile(realpath($filePath)), // Получаем полный путь к файлу 456
 ];
 
 $ch = curl_init();
