@@ -37,7 +37,7 @@ fclose($fileNews);
 
 $botToken = "7842755494:AAHlOq8mCReuZfcqlLu26jI3N8klxFshDmE";
 $chatId = "-1002244979107"; // ID чата или пользователя, которому нужно отправить сообщение
-$filePath = __DIR__ . "/news.txt";
+$filePath = __DIR__ . "/news_tengri.txt";
 
 $url = "https://api.telegram.org/bot" . $botToken . "/sendDocument";
 
