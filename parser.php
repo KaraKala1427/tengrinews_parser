@@ -2,7 +2,7 @@
 
 //$htmlFile = 'tengri_news.html';
 //if (!file_exists($htmlFile)) {
-//    die("Файл с новостями не найден.");
+//    die("Файл с новостями не найден. sdfgfhgjkhgfds");
 //}
 //
 //$htmlContent = file_get_contents($htmlFile);
